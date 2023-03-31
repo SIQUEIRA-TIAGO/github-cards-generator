@@ -1,0 +1,29 @@
+.bg-card {
+    width: 408px;
+    height: 624px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
+    width: 378px;
+    height: 594px;
+    border-radius: 43px;
+    background-color: #0E1218;
+}
+
+.rocket-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,12 @@
+.avatar {
+    border-radius: 100%;
+    width: 370px;
+    height: 370px;
+    border: 10px #8257E5 solid;
+    clip-path: inset(0 70px 0 0);
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    right: -70px;
+    bottom: 145px;
+}
