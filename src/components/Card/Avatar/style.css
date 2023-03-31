@@ -2,7 +2,7 @@
     border-radius: 100%;
     width: 370px;
     height: 370px;
-    border: 10px #8257E5 solid;
+    border: 10px solid;
     clip-path: inset(0 70px 0 0);
     overflow: hidden;
     position: absolute;

@@ -35,7 +35,10 @@ const GitCard = (props) => {
                     </div>
                 </div>
                 
-                <Avatar avatar_url={userData.avatar_url}/>
+                <Avatar
+                    avatar_url={userData.avatar_url}
+                    cardColor={props.cardColor}
+                />
                 <UserInfo
                 followers={userData.followers}
                 following={userData.following}
