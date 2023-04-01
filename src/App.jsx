@@ -22,6 +22,7 @@ function App() {
             username={username}
             searchUser={searchUser}
           />
+          <p className="developer">Developed by <strong>Tiago Siqueira de Oliveira</strong></p>
     </div>
   );
 }

@@ -22,6 +22,14 @@ body {
     flex-wrap: wrap;
 }
 
+.developer {
+    color: #FFFCF9;
+    opacity: 50%;
+    font-size: 10px;
+    position: fixed;
+    bottom: 10px;
+  }
+
 @media (max-width: 800px) {
     .container {
         gap: 50px;
