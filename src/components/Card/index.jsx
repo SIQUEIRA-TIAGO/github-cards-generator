@@ -28,10 +28,10 @@ const GitCard = (props) => {
             <div className="card">
                 
                 <div style={{display: "flex", gap: 10}}>
-                    <img style={{width: 55, height: 55, }} src="./assets/github-icon.png" alt="" />
+                    <img className="git-logo" src="./assets/github-icon.png" alt="" />
                     <div className="name-area">
-                        <p style={{fontSize: 20, fontWeight: 700}}>{userData.name}</p>
-                        <span style={{fontSize: 14, fontWeight: 100}}>{userData.login}</span>
+                        <p>{userData.name}</p>
+                        <span>{userData.login}</span>
                     </div>
                 </div>
                 

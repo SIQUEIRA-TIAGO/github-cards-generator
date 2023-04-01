@@ -17,3 +17,13 @@
     align-items: center;
     gap: 9px;
 }
+
+@media (max-width: 800px) {
+    .info-area {
+        height: 155px;
+        width: 145px;
+    }
+    .info-line {
+        font-size: 12px;
+    }
+}

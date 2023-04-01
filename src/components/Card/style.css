@@ -1,4 +1,5 @@
 .bg-card {
+    margin-top: 15px;
     width: 408px;
     height: 624px;
     border-radius: 50px;
@@ -19,6 +20,21 @@
     background-color: #0E1218;
 }
 
+.git-logo {
+    width: 55px;
+    height: 55px;
+}
+
+.name-area p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.name-area span {
+    font-size: 14px;
+    font-weight: 100;
+}
+
 .rocket-logo {
     display: flex;
     align-items: center;
@@ -27,3 +43,35 @@
     font-size: 20px;
 }
 
+@media (max-width: 800px) {
+    .bg-card {
+        width: 358px;
+        height: 574px;
+    }
+    .card {
+        width: 328px;
+        height: 544px;
+    }
+    .git-logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .name-area p {
+        font-size: 15px;
+    }
+    .name-area span {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 485px) {
+    .bg-card {
+        width: 308px;
+        height: 524px;
+    }
+    .card {
+        width: 278px;
+        height: 494px;
+    }
+}

@@ -10,3 +10,17 @@
     right: -70px;
     bottom: 145px;
 }
+
+@media (max-width: 800px) {
+    .avatar {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 485px) {
+    .avatar {
+        width: 270px;
+        height: 270px;
+    }
+}
